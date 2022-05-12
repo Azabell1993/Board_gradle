@@ -36,7 +36,7 @@
 		<td>Ã·ºÎÆÄÀÏ</td>
 		<td>
 			<c:if test="${boarddata.getBOARD_FILE() != null }" >
-				<a href="./boardupload/${boarddata.getBOARD_FILE()}">
+				<a href="./boardUpload/${boarddata.getBOARD_FILE()}">
 					${boarddata.getBOARD_FILE() }
 				</a>
 			</c:if>
